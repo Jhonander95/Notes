@@ -1,0 +1,69 @@
+:root {
+	--texto: rgba(255,255,255, .7);
+	--blanco: #fff;
+	--input: #3A3B3C;
+	--input-hover: #4b4d4e;
+	--activo: #2D88FF;
+	--gris-claro: #B0B3B8;
+	--fondo-contenido: #242526;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #ffff;
+	color: var(--texto);
+}
+
+header{
+    background: var(--fondo-contenido);
+    color:  var(--blanco);
+    
+}
+
+header .nav {
+    min-height: 100px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+header .nav .logo p {
+    font-size: 18px;
+}
+
+header .barra-busqueda input {
+	width: 100%;
+	border: none;
+	background: var(--input);
+	color: var(--texto);
+	height: 40px;
+	border-radius: 100px;
+	padding: 0 20px 0 40px;
+}
+
+main{
+    background: var(--gris-claro);
+	color: var(--texto);
+}
+
+
+/* Dispositivo lg */
+@media screen and (max-width: 992px){
+	/* header .barra-busqueda {
+        position: absolute;
+        min-height: 76px;
+        left: 180px;
+        width: 60%;
+    }
+    header .barra-busqueda .icono {
+        position: absolute;
+        top: 24px;
+        left: 20px;
+        color: var(--texto);
+    }
+ */
+
+}
