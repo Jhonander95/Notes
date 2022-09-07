@@ -1,0 +1,8 @@
+
+header .container .row .logo a {
+    text-decoration: none;
+}
+
+main{
+    min-height: 1000px;
+}
